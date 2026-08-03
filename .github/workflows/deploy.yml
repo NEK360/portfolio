@@ -6,30 +6,31 @@ on:
       - main
 
 jobs:
-
   build:
 
     runs-on: ubuntu-latest
 
     defaults:
       run:
-        working-directory: ./portfolio
+        working-directory: portfolio-development-memory-system
 
     steps:
 
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+          cache-dependency-path: portfolio-development-memory-system/package-lock.json
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build
+      - name: Build project
         run: npm run build
-          server-dir: /www/portfolio.nb/
 
-          dangerous-clean-slate: true
+      - name: Show build files
+        run: ls -la dist
