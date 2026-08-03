@@ -1,4 +1,4 @@
-name: Deploy VB Portfolio
+name: Build Portfolio
 
 on:
   push:
@@ -6,31 +6,30 @@ on:
       - main
 
 jobs:
-  deploy:
+
+  build:
+
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+    defaults:
+      run:
+        working-directory: ./portfolio
 
-      - uses: actions/setup-node@v4
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
-      - run: npm run build
-
-      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASSWORD }}
-
-          protocol: ftp
-          port: 21
-
-          local-dir: ./dist/
-
+      - name: Build
+        run: npm run build
           server-dir: /www/portfolio.nb/
 
           dangerous-clean-slate: true
