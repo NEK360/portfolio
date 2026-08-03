@@ -46,6 +46,6 @@ jobs:
 
           password: ${{ secrets.FTP_PASSWORD }}
 
-          server-dir: /www/portfolio.nb/
+          server-dir: /www/vb-store.online/
 
           local-dir: portfolio-development-memory-system/dist/
