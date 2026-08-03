@@ -1,4 +1,4 @@
-name: Deploy to Hostman
+name: Deploy to Hostiman
 
 on:
   push:
@@ -6,30 +6,34 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Скачать проект
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Установить Node.js
+      - name: Install Node
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Установить зависимости
-        run: npm install
+      - name: Install packages
+        run: npm ci
 
-      - name: Собрать сайт
+      - name: Build Vite
         run: npm run build
 
-      - name: Загрузка на Hostman
+      - name: Upload to Hostiman
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
+
           protocol: ftp
-          local-dir: ./dist/
+          port: 21
+
+          local-dir: dist/
+
           server-dir: /www/portfolio.nb/
