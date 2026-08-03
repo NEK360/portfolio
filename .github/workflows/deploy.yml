@@ -17,23 +17,26 @@ jobs:
 
     steps:
 
-      - name: Checkout repository
+      - name: Проверка репозитория
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Настройка Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: portfolio-development-memory-system/package-lock.json
 
-      - name: Install dependencies
+      - name: Установка зависимостей
         run: npm install
 
-      - name: Build project
+      - name: Сборка проекта
         run: npm run build
 
-      - name: Deploy to Hostiman FTP
+      - name: Проверка папки dist
+        run: ls -la dist
+
+      - name: Развертывание на FTP-сервере Hostiman
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
 
@@ -43,7 +46,6 @@ jobs:
 
           password: ${{ secrets.FTP_PASSWORD }}
 
-          server-dir: ${{ secrets.FTP_PATH }}/
+          server-dir: /www/portfolio.nb/
 
           local-dir: portfolio-development-memory-system/dist/
-        run: ls -la dist
