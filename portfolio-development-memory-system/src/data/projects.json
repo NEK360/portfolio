@@ -1,0 +1,329 @@
+{
+  "projects": [
+    {
+      "id": "vb-store",
+      "title": "VB Store",
+      "subtitle": "Интернет-магазин спортивной обуви",
+      "category": "E-commerce",
+      "tags": ["E-commerce", "Web Development", "Automation", "Internet Marketing"],
+      "description": "Полный цикл развития интернет-магазина: от запуска продаж на маркетплейсах до создания собственного интернет-магазина с автоматизацией каталога и интеграцией Wildberries API.",
+      "year": "2022–2026",
+      "technologies": ["React", "TypeScript", "Vite", "Google Apps Script", "Wildberries API", "Google Sheets"],
+      "images": [
+        "https://i.postimg.cc/2yf45Dbt/IMG-3435.png",
+        "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
+        "https://i.postimg.cc/7Pg3Wfjr/IMG-3454.png"
+      ],
+      "links": {
+        "site": "https://www.vb-store.ru",
+        "github": "https://github.com/NEK360/VB-STOR.ru"
+      },
+      "stats": [
+        {"label": "Товаров", "value": "65"},
+        {"label": "Категорий", "value": "6"},
+        {"label": "Брендов", "value": "10"},
+        {"label": "Фотографий", "value": "325+"}
+      ],
+      "featured": true
+    },
+    {
+      "id": "wildberries",
+      "title": "Wildberries",
+      "subtitle": "Создание и развитие магазина",
+      "category": "E-commerce",
+      "tags": ["Wildberries", "E-commerce", "Маркетплейс"],
+      "description": "Создание и развитие магазина на Wildberries: карточки товаров, характеристики, фотографии, КИЗ, Честный знак, аналитика продаж.",
+      "year": "2023–2026",
+      "technologies": ["Wildberries API", "Google Sheets", "Google Apps Script"],
+      "images": [
+        "https://i.postimg.cc/2yf45Dbt/IMG-3435.png",
+        "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
+        "https://i.postimg.cc/BQ4T9JGb/IMG-3458.png"
+      ],
+      "links": {
+        "site": "https://www.vb-store.ru"
+      },
+      "stats": [
+        {"label": "Заказов 2024", "value": "276"},
+        {"label": "Продажи 2024", "value": "497 311 ₽"},
+        {"label": "Заказов 2025", "value": "351"},
+        {"label": "Карточек", "value": "140"}
+      ],
+      "featured": true
+    },
+    {
+      "id": "ai-web-studio",
+      "title": "AI Web Studio",
+      "subtitle": "Система создания сайтов с помощью ИИ",
+      "category": "Development",
+      "tags": ["AI", "React", "TypeScript", "Web Development"],
+      "description": "Разработка концепции универсальной системы создания сайтов с использованием искусственного интеллекта. Ускорение создания сайтов для малого бизнеса.",
+      "year": "2025–2026",
+      "technologies": ["AI", "React", "TypeScript", "JSON", "Web Development"],
+      "images": [],
+      "links": {},
+      "stats": [
+        {"label": "Шаблонов", "value": "7"},
+        {"label": "Сайтов", "value": "11"}
+      ],
+      "featured": true
+    },
+    {
+      "id": "google-apps-script",
+      "title": "Автоматизация VB Store",
+      "subtitle": "Google Apps Script система",
+      "category": "Automation",
+      "tags": ["Google Apps Script", "Google Sheets", "API", "Automation"],
+      "description": "Создана собственная система автоматизации для синхронизации данных между Wildberries API, Google Sheets и интернет-магазином.",
+      "year": "2025–2026",
+      "technologies": ["Google Apps Script", "Google Sheets", "Wildberries API", "JSON", "REST API"],
+      "images": [
+        "https://i.postimg.cc/y8N0xndQ/IMG-3464.png",
+        "https://i.postimg.cc/y8rcZ9gw/IMG-3467.png",
+        "https://i.postimg.cc/qvZy3n6f/IMG-3465.png",
+        "https://i.postimg.cc/7ZQ027GF/IMG-3466.png"
+      ],
+      "links": {},
+      "stats": [
+        {"label": "Файлов скриптов", "value": "28"},
+        {"label": "Функций", "value": "100+"},
+        {"label": "Строк кода", "value": "3000+"},
+        {"label": "Таблиц", "value": "43"}
+      ],
+      "featured": true
+    },
+    {
+      "id": "yandex-direct",
+      "title": "Яндекс Директ",
+      "subtitle": "Продвижение VB Store",
+      "category": "Marketing",
+      "tags": ["Яндекс Директ", "Яндекс Метрика", "SEO", "Реклама"],
+      "description": "Настройка рекламной кампании для интернет-магазина VB Store. Подбор аудитории, анализ эффективности и работа с рекламными объявлениями.",
+      "year": "2025",
+      "technologies": ["Яндекс Директ", "Яндекс Метрика", "SEO"],
+      "images": [
+        "https://i.postimg.cc/kGFW6pWP/IMG-3446.png",
+        "https://i.postimg.cc/wxhXG7ZR/IMG-3447.png",
+        "https://i.postimg.cc/PJz1pR15/IMG-3448.png"
+      ],
+      "links": {},
+      "stats": [
+        {"label": "Показы", "value": "60 987"},
+        {"label": "Клики", "value": "1 042"},
+        {"label": "CTR", "value": "1,7%"},
+        {"label": "Конверсии", "value": "18"}
+      ],
+      "featured": true
+    },
+    {
+      "id": "telegram-bot",
+      "title": "Telegram File Bot",
+      "subtitle": "Бот для автоматизации работы с файлами",
+      "category": "Automation",
+      "tags": ["Python", "Telegram", "Яндекс.Диск", "Bot", "Automation"],
+      "description": "Telegram-бот для автоматической загрузки файлов на Яндекс.Диск.",
+      "year": "2025",
+      "technologies": ["Python", "Telegram Bot API", "Яндекс.Диск API"],
+      "images": [
+        "https://i.postimg.cc/mg6CHM1s/IMG-3470.png"
+      ],
+      "links": {
+        "github": "https://github.com/NEK360/telegram-file-bot"
+      },
+      "stats": [],
+      "featured": false
+    },
+    {
+      "id": "dubai-chocolate",
+      "title": "Дубайский шоколад",
+      "subtitle": "Лендинг и маркетинговый анализ",
+      "category": "Marketing",
+      "tags": ["Landing Page", "Маркетинг", "Учебный проект"],
+      "description": "Учебный проект второго курса. Разработан лендинг продукта «Дубайский шоколад». Создание лендинга и маркетинговый анализ продукта.",
+      "year": "2024",
+      "technologies": ["HTML", "CSS", "Маркетинг", "Аналитика"],
+      "images": [],
+      "links": {
+        "pdf": "https://www.image2url.com/r2/default/documents/1785680984978-511ef0ee-0150-4a96-881f-79c33567a758.pdf"
+      },
+      "stats": [],
+      "featured": false
+    },
+    {
+      "id": "kazachy-bread",
+      "title": "Казачий хлеб",
+      "subtitle": "Маркетинговое исследование",
+      "category": "Marketing",
+      "tags": ["Маркетинг", "Анализ рынка", "SWOT", "SEO", "Учебный проект"],
+      "description": "Маркетинговое исследование «Казачий хлеб ТМ Дубайский шоколад». Анализ рынка, семантики, аудитории и конкурентов.",
+      "year": "2024",
+      "technologies": ["Маркетинг", "SEO", "Аналитика", "SWOT"],
+      "images": [],
+      "links": {
+        "pdf": "https://www.image2url.com/r2/default/documents/1785680508817-3bdf8232-9064-45a0-b4cc-78beb6a8052b.pdf"
+      },
+      "stats": [],
+      "featured": false
+    }
+  ],
+  "aiProjects": [
+    {
+      "id": "ai-01",
+      "title": "AI Website 1",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1e18-9805-730f-a6dc-3433a00c9d33.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-02",
+      "title": "AI Website 2",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1e17-7166-742c-8f28-3fc51ff1bec1.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-03",
+      "title": "AI Website 3",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1de0-3bba-7693-8b4e-a63fc3b3ded7.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-04",
+      "title": "AI Website 4",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1d1c-d1e3-74f7-9782-8d0a80a64482.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-05",
+      "title": "AI Website 5",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1915-54a0-77df-bf1e-37f256ceeb8c.arena.site",
+      "image": ""
+    },
+    {
+      "id": "ai-06",
+      "title": "AI Website 6",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1b1d-bfda-72e6-9a48-f87024f9b91f.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-07",
+      "title": "AI Website 7",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1b1b-ebc7-70c8-8538-9cf197948946.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-08",
+      "title": "AI Website 8",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1b11-3b5c-7a0b-a18e-0b145d6516b3.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-09",
+      "title": "AI Website 9",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f1b09-cc7a-7198-843c-d7385a710def.arena.site/",
+      "image": ""
+    },
+    {
+      "id": "ai-10",
+      "title": "AI Website 10",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f18be-0190-788d-895d-277dc60aeb45.arena.site",
+      "image": ""
+    },
+    {
+      "id": "ai-11",
+      "title": "AI Website 11",
+      "description": "Современный сайт, созданный с использованием искусственного интеллекта.",
+      "url": "https://019f0ec7-dff7-7a87-b6f0-fa89782e199f.arena.site",
+      "image": ""
+    }
+  ],
+  "vbStoreTimeline": [
+    {
+      "year": "2022",
+      "title": "Запуск продаж через Авито",
+      "description": "Создан первый опыт работы с электронной коммерцией и продажами онлайн.",
+      "done": [
+        "Создан магазин на Авито",
+        "Подготовлено более 190 карточек товаров",
+        "Написаны описания",
+        "Заполнены характеристики",
+        "Настроены объявления"
+      ],
+      "tech": ["Авито"]
+    },
+    {
+      "year": "2023",
+      "title": "Запуск магазина на Wildberries",
+      "description": "Первый выход на федеральный маркетплейс. Получен опыт работы с Wildberries и Честным знаком.",
+      "done": [
+        "Создан кабинет продавца",
+        "Подготовлено более 20 карточек товаров",
+        "Заполнены описания и характеристики",
+        "Подготовлены фотографии",
+        "Сделаны КИЗ",
+        "Выполнена работа с Честным знаком",
+        "Запущены продажи"
+      ],
+      "tech": ["Wildberries"],
+      "stats": [{"label": "Заказы", "value": "103"}, {"label": "Продажи", "value": "200 822 ₽"}]
+    },
+    {
+      "year": "2024",
+      "title": "Первый сайт интернет-магазина",
+      "description": "Создан собственный канал продаж независимо от маркетплейсов.",
+      "done": [
+        "Разработан первый интернет-магазин на Tilda",
+        "Подключён домен",
+        "Создан каталог",
+        "Добавлено более 100 карточек товаров",
+        "Настроена структура сайта",
+        "Появились первые продажи через сайт"
+      ],
+      "tech": ["Tilda"],
+      "stats": [{"label": "Заказы", "value": "276"}, {"label": "Продажи", "value": "497 311 ₽"}],
+      "pdf": "https://www.image2url.com/r2/default/documents/1785680642140-20961c59-7abd-4528-8ddc-953e8de6d049.pdf"
+    },
+    {
+      "year": "2025",
+      "title": "Развитие магазина",
+      "description": "Рост каталога, запуск рекламы и SEO-оптимизация.",
+      "done": [
+        "Каталог Wildberries увеличен до 140 карточек",
+        "Улучшены описания",
+        "Подготовлен визуальный контент",
+        "Созданы видео товаров с помощью ИИ",
+        "Запущена реклама в Яндекс Директ",
+        "Подключена Яндекс Метрика",
+        "Выполнена SEO оптимизация сайта"
+      ],
+      "tech": ["Яндекс Директ", "Яндекс Метрика", "SEO", "AI"],
+      "stats": [{"label": "Заказы", "value": "351"}, {"label": "Продажи", "value": "493 662 ₽"}]
+    },
+    {
+      "year": "2026",
+      "title": "Полная переработка интернет-магазина",
+      "description": "Создана новая версия сайта на React с автоматизированным каталогом.",
+      "done": [
+        "Новый современный интерфейс",
+        "Адаптивная верстка",
+        "Автоматический каталог товаров",
+        "Карточки товаров с поиском",
+        "Фильтрация и сортировка",
+        "Избранное, отзывы, FAQ",
+        "Синхронизация с Wildberries API",
+        "Автоматизация через Google Apps Script"
+      ],
+      "tech": ["React", "TypeScript", "Vite", "Google Apps Script", "Wildberries API", "Google Sheets"],
+      "stats": [{"label": "Заказы", "value": "283*"}, {"label": "Продажи", "value": "307 893 ₽*"}],
+      "link": "https://www.vb-store.ru"
+    }
+  ]
+}

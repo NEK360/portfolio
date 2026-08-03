@@ -1,0 +1,50 @@
+{
+  "profile": {
+    "username": "NEK360",
+    "url": "https://github.com/NEK360",
+    "image": "https://i.postimg.cc/kghKb8R4/IMG-3468.png",
+    "repositoriesCount": 11,
+    "description": "GitHub используется для хранения исходного кода проектов, разработки приложений и контроля изменений."
+  },
+  "repositories": [
+    {
+      "id": "vb-store",
+      "name": "VB Store E-commerce",
+      "url": "https://github.com/NEK360/VB-STOR.ru",
+      "description": "Исходный код интернет-магазина VB Store. Проект включает React приложение, TypeScript компоненты, каталог товаров, карточки товаров, фильтрацию, работу с данными, интеграцию с автоматизированной системой каталога.",
+      "technologies": ["React", "TypeScript", "Vite", "Google Apps Script", "Google Sheets", "JSON API"],
+      "images": [
+        {
+          "url": "https://i.postimg.cc/8znM6WfD/IMG-3469.png",
+          "caption": "Структура React/TypeScript проекта интернет-магазина."
+        }
+      ],
+      "languages": [
+        {"name": "TypeScript", "percent": 97.1},
+        {"name": "CSS", "percent": 1.8},
+        {"name": "HTML", "percent": 1.1}
+      ],
+      "commits": [
+        {"date": "05.07.2026", "additions": "7006"},
+        {"date": "12.07.2026", "additions": "1 990 303"}
+      ],
+      "note": "Разработка современных веб-приложений с использованием TypeScript и React."
+    },
+    {
+      "id": "telegram-bot",
+      "name": "Telegram File Bot",
+      "url": "https://github.com/NEK360/telegram-file-bot",
+      "description": "Telegram-бот для автоматической загрузки файлов на Яндекс.Диск.",
+      "technologies": ["Python", "Telegram Bot API", "Яндекс.Диск API"],
+      "images": [
+        {
+          "url": "https://i.postimg.cc/mg6CHM1s/IMG-3470.png",
+          "caption": "Разработка Telegram-бота для автоматизации работы с файлами."
+        }
+      ],
+      "languages": [],
+      "commits": [],
+      "note": "Автоматизация загрузки файлов через Telegram."
+    }
+  ]
+}

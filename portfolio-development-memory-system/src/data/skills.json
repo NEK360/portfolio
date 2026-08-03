@@ -1,0 +1,63 @@
+{
+  "categories": [
+    {
+      "id": "marketing",
+      "title": "Маркетинг",
+      "icon": "📊",
+      "skills": [
+        {"name": "Интернет-маркетинг", "level": 3, "description": "Планирование и запуск рекламных кампаний"},
+        {"name": "Яндекс Директ", "level": 3, "description": "Настройка контекстной рекламы"},
+        {"name": "Яндекс Метрика", "level": 3, "description": "Аналитика и отслеживание конверсий"},
+        {"name": "SEO", "level": 3, "description": "Поисковая оптимизация сайтов"},
+        {"name": "Аналитика", "level": 3, "description": "Анализ данных и отчётность"},
+        {"name": "Конкурентный анализ", "level": 3, "description": "SWOT, исследование рынка"},
+        {"name": "Маркетплейсы", "level": 4, "description": "Работа с Wildberries, Авито"}
+      ]
+    },
+    {
+      "id": "development",
+      "title": "Разработка",
+      "icon": "💻",
+      "skills": [
+        {"name": "HTML", "level": 4, "description": "Семантическая вёрстка"},
+        {"name": "CSS", "level": 4, "description": "Адаптивные стили, Tailwind"},
+        {"name": "JavaScript", "level": 4, "description": "ES6+, работа с DOM и API"},
+        {"name": "TypeScript", "level": 3, "description": "Типизированный JavaScript"},
+        {"name": "React", "level": 3, "description": "Разработка современных SPA"},
+        {"name": "Vite", "level": 3, "description": "Сборка и разработка"},
+        {"name": "Git", "level": 3, "description": "Контроль версий"},
+        {"name": "GitHub", "level": 3, "description": "Хранение и управление кодом"}
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "Автоматизация",
+      "icon": "⚙️",
+      "skills": [
+        {"name": "Google Apps Script", "level": 5, "description": "28 файлов, 100+ функций, 3000+ строк"},
+        {"name": "Google Sheets", "level": 4, "description": "CMS для управления товарами"},
+        {"name": "Wildberries API", "level": 4, "description": "Интеграция и синхронизация данных"},
+        {"name": "REST API", "level": 3, "description": "Работа с внешними API"},
+        {"name": "JSON", "level": 4, "description": "Формат обмена данными"}
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI инструменты",
+      "icon": "🤖",
+      "skills": [
+        {"name": "ChatGPT", "level": 4, "description": "Генерация текста, промпты, автоматизация"},
+        {"name": "Claude", "level": 4, "description": "Разработка, анализ, документация"},
+        {"name": "Gemini", "level": 3, "description": "Работа с Google AI"},
+        {"name": "Генерация изображений", "level": 3, "description": "Создание визуального контента"},
+        {"name": "Создание промптов", "level": 4, "description": "Prompt Engineering"}
+      ]
+    }
+  ],
+  "stack": {
+    "frontend": ["React", "TypeScript", "Vite", "HTML", "CSS", "JavaScript"],
+    "automation": ["Google Apps Script", "Google Sheets", "JSON", "REST API"],
+    "marketing": ["Яндекс Директ", "Яндекс Метрика", "SEO"],
+    "tools": ["Git", "GitHub", "VS Code", "ChatGPT", "Claude"]
+  }
+}

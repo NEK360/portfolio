@@ -1,0 +1,113 @@
+{
+  "media": [
+    {
+      "id": "wb-main",
+      "title": "Wildberries — главная страница магазина",
+      "category": "wildberries",
+      "description": "Главная страница магазина на Wildberries",
+      "imageUrl": "https://i.postimg.cc/2yf45Dbt/IMG-3435.png",
+      "documentUrl": "",
+      "date": "2023"
+    },
+    {
+      "id": "wb-cards-1",
+      "title": "Wildberries — карточки товаров 1",
+      "category": "wildberries",
+      "description": "Карточки товаров на Wildberries",
+      "imageUrl": "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
+      "documentUrl": "",
+      "date": "2023"
+    },
+    {
+      "id": "wb-cards-2",
+      "title": "Wildberries — карточки товаров 2",
+      "category": "wildberries",
+      "description": "Карточки товаров на Wildberries",
+      "imageUrl": "https://i.postimg.cc/7Pg3Wfjr/IMG-3454.png",
+      "documentUrl": "",
+      "date": "2023"
+    },
+    {
+      "id": "wb-analytics",
+      "title": "Wildberries — аналитика продаж",
+      "category": "wildberries",
+      "description": "Аналитика и статистика продаж на Wildberries",
+      "imageUrl": "https://i.postimg.cc/BQ4T9JGb/IMG-3458.png",
+      "documentUrl": "",
+      "date": "2024"
+    },
+    {
+      "id": "sheets-main",
+      "title": "Google Sheets — главная таблица",
+      "category": "automation",
+      "description": "Главная таблица управления товарами",
+      "imageUrl": "https://i.postimg.cc/HkLbn3xz/IMG-3459.png",
+      "documentUrl": "",
+      "date": "2025"
+    },
+    {
+      "id": "apps-script-code",
+      "title": "Google Apps Script — код",
+      "category": "automation",
+      "description": "Код автоматизации на Google Apps Script",
+      "imageUrl": "https://i.postimg.cc/y8rcZ9gw/IMG-3467.png",
+      "documentUrl": "",
+      "date": "2025"
+    },
+    {
+      "id": "yandex-stats",
+      "title": "Яндекс Директ — статистика",
+      "category": "marketing",
+      "description": "Статистика рекламной кампании Яндекс Директ",
+      "imageUrl": "https://i.postimg.cc/kGFW6pWP/IMG-3446.png",
+      "documentUrl": "",
+      "date": "2025"
+    },
+    {
+      "id": "tilda-pdf",
+      "title": "Сайт VB Store на Tilda 2024",
+      "category": "development",
+      "description": "Первая версия интернет-магазина на Tilda",
+      "imageUrl": "",
+      "documentUrl": "https://www.image2url.com/r2/default/documents/1785680642140-20961c59-7abd-4528-8ddc-953e8de6d049.pdf",
+      "date": "2024"
+    },
+    {
+      "id": "dubai-chocolate-landing",
+      "title": "Лендинг Дубайский шоколад",
+      "category": "education",
+      "description": "Учебный лендинг продукта Дубайский шоколад",
+      "imageUrl": "",
+      "documentUrl": "https://www.image2url.com/r2/default/documents/1785680984978-511ef0ee-0150-4a96-881f-79c33567a758.pdf",
+      "date": "2024"
+    },
+    {
+      "id": "kazachy-bread-research",
+      "title": "Казачий хлеб — маркетинговое исследование",
+      "category": "education",
+      "description": "Маркетинговое исследование продукта Казачий хлеб",
+      "imageUrl": "",
+      "documentUrl": "https://www.image2url.com/r2/default/documents/1785680508817-3bdf8232-9064-45a0-b4cc-78beb6a8052b.pdf",
+      "date": "2024"
+    },
+    {
+      "id": "diploma-spo",
+      "title": "Диплом СПО — Специалист по рекламе",
+      "category": "education",
+      "description": "Диплом о среднем профессиональном образовании",
+      "imageUrl": "",
+      "documentUrl": "https://www.image2url.com/r2/default/documents/1785681508727-55e9a2d1-1229-4f61-94ed-08176653849a.pdf",
+      "date": "2026"
+    },
+    {
+      "id": "wb-video",
+      "title": "Wildberries — видео товара",
+      "category": "wildberries",
+      "description": "Видео товара созданное с помощью ИИ",
+      "imageUrl": "",
+      "documentUrl": "",
+      "videoUrl": "https://www.image2url.com/r2/default/videos/1785681304143-1dfc853d-18f2-40bd-9e0c-9b68e47e637f.mp4",
+      "date": "2025"
+    }
+  ]
+}
