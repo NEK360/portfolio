@@ -1,4 +1,4 @@
-name: Build Portfolio
+name: Deploy Portfolio to Hostiman
 
 on:
   push:
@@ -6,7 +6,8 @@ on:
       - main
 
 jobs:
-  build:
+
+  build-and-deploy:
 
     runs-on: ubuntu-latest
 
@@ -32,5 +33,17 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Show build files
+      - name: Deploy to Hostiman FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+
+          server: ${{ secrets.FTP_HOST }}
+
+          username: ${{ secrets.FTP_USER }}
+
+          password: ${{ secrets.FTP_PASSWORD }}
+
+          server-dir: ${{ secrets.FTP_PATH }}/
+
+          local-dir: portfolio-development-memory-system/dist/
         run: ls -la dist
