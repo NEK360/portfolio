@@ -1,23 +1,5 @@
-import wbSellerDashboard from "./wb-seller-dashboard.jpg";
-import wbProductCard1 from "./wb-product-card-1.jpg";
-import wbProductCard2 from "./wb-product-card-2.jpg";
-import wbSalesAnalytics from "./wb-sales-analytics.jpg";
-
-import gasProjectFiles from "./gas-project-files.jpg";
-import gasSyncCode from "./gas-sync-code.jpg";
-import gasLogSuccess from "./gas-log-success.jpg";
-import gasLogHistory from "./gas-log-history.jpg";
-
-import yandexSettings from "./yandex-direct-settings.jpg";
-import yandexStatistics from "./yandex-direct-statistics.jpg";
-import yandexReport from "./yandex-direct-report.jpg";
-
-import telegramBot from "./github-telegram-bot.jpg";
-
-import dubaiPdf from "./dubai-chocolate-landing.pdf";
-import kazachyPdf from "./kazachy-hleb-analysis.pdf";
-import tildaPdf from "./vb-store-tilda-site.pdf";
-export const projects = [
+{
+  "projects": [
     {
       "id": "vb-store",
       "title": "VB Store",
@@ -27,12 +9,12 @@ export const projects = [
       "description": "Полный цикл развития интернет-магазина: от запуска продаж на маркетплейсах до создания собственного интернет-магазина с автоматизацией каталога и интеграцией Wildberries API.",
       "year": "2022–2026",
       "technologies": ["React", "TypeScript", "Vite", "Google Apps Script", "Wildberries API", "Google Sheets"],
-      images: [
-  wbSellerDashboard,
-  wbProductCard1,
-  wbProductCard2
-],
-        "links": {
+      "images": [
+        "https://i128.fastpic.org/big/2026/0804/3a/1ac345632d80901c0ee3cc2bdbd7803a.jpeg",
+        "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
+        "https://i.postimg.cc/7Pg3Wfjr/IMG-3454.png"
+      ],
+      "links": {
         "site": "https://www.vb-store.ru",
         "github": "https://github.com/NEK360/VB-STOR.ru"
       },
@@ -53,11 +35,11 @@ export const projects = [
       "description": "Создание и развитие магазина на Wildberries: карточки товаров, характеристики, фотографии, КИЗ, Честный знак, аналитика продаж.",
       "year": "2023–2026",
       "technologies": ["Wildberries API", "Google Sheets", "Google Apps Script"],
-      images: [
-  wbSellerDashboard,
-  wbProductCard1,
-  wbSalesAnalytics
-],
+      "images": [
+        "https://i.postimg.cc/2yf45Dbt/IMG-3435.png",
+        "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
+        "https://i.postimg.cc/BQ4T9JGb/IMG-3458.png"
+      ],
       "links": {
         "site": "https://www.wildberries.ru/seller/334153"
       },
@@ -345,4 +327,3 @@ export const projects = [
     }
   ]
 }
-export default projects;
