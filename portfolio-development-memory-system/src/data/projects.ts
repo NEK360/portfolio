@@ -354,6 +354,7 @@ export const projects = [
 ];
 
 export default projects;
+export const projects = [
 {
     id: "kazachy-bread",
     title: "Казачий хлеб",
