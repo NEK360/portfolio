@@ -9,11 +9,11 @@
       "description": "Полный цикл развития интернет-магазина: от запуска продаж на маркетплейсах до создания собственного интернет-магазина с автоматизацией каталога и интеграцией Wildberries API.",
       "year": "2022–2026",
       "technologies": ["React", "TypeScript", "Vite", "Google Apps Script", "Wildberries API", "Google Sheets"],
-      "images": [
-        "https://i.postimg.cc/2yf45Dbt/IMG-3435.png",
-        "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
-        "https://i.postimg.cc/7Pg3Wfjr/IMG-3454.png"
-      ],
+      images: [
+  wbSellerDashboard,
+  wbProductCard1,
+  wbProductCard2
+],
       "links": {
         "site": "https://www.vb-store.ru",
         "github": "https://github.com/NEK360/VB-STOR.ru"
@@ -35,11 +35,11 @@
       "description": "Создание и развитие магазина на Wildberries: карточки товаров, характеристики, фотографии, КИЗ, Честный знак, аналитика продаж.",
       "year": "2023–2026",
       "technologies": ["Wildberries API", "Google Sheets", "Google Apps Script"],
-      "images": [
-        "https://i.postimg.cc/2yf45Dbt/IMG-3435.png",
-        "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png",
-        "https://i.postimg.cc/BQ4T9JGb/IMG-3458.png"
-      ],
+      images: [
+  wbSellerDashboard,
+  wbProductCard1,
+  wbSalesAnalytics
+],
       "links": {
         "site": "https://www.wildberries.ru/seller/334153"
       },
