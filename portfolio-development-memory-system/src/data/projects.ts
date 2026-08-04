@@ -346,15 +346,6 @@ export const projects = [
   ]
 }
 export const projects = [
-  {
-    id: "vb-store",
-    title: "VB Store",
-    ...
-  }
-];
-
-export default projects;
-export const projects = [
 {
     id: "kazachy-bread",
     title: "Казачий хлеб",
