@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import { ArrowDown, ExternalLink, MessageCircle, ChevronRight, Code, BarChart2, Settings, Cpu } from 'lucide-react';
 import AnimatedCounter from '../components/ui/AnimatedCounter';
-import projectsData from '../data/projects.json';
+import projectsData from '../data/projects';
 
 function GithubSVG({ size = 18 }: { size?: number }) {
   return (
