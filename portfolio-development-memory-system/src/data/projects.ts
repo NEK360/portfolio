@@ -32,7 +32,7 @@ export const projects = [
   wbProductCard1,
   wbProductCard2
 ],
-      "links": {
+        "links": {
         "site": "https://www.vb-store.ru",
         "github": "https://github.com/NEK360/VB-STOR.ru"
       },
@@ -345,12 +345,4 @@ export const projects = [
     }
   ]
 }
-export const projects = [
-{
-    id: "kazachy-bread",
-    title: "Казачий хлеб",
-    ...
-  }
-];
-
 export default projects;
