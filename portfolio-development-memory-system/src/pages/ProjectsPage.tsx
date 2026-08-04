@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ExternalLink, ChevronRight } from 'lucide-react';
-import projectsData from '../data/projects.json';
+import projectsData from '../data/projects';
 
 function GithubSVG({ size = 14 }: { size?: number }) {
   return (
