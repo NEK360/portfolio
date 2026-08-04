@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, FileText } from 'lucide-react';
-import projectsData from '../data/projects.json';
+import projectsData from '../data/projects';
 
 const businessTemplates = [
   { name: 'Салон красоты', icon: '💅' },
