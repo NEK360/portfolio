@@ -10,15 +10,36 @@
       "result": "Запущен магазин на Wildberries, налажена система управления ассортиментом.",
       "url": "https://www.vb-store.ru",
       "images": [
-        {"url": "https://i.postimg.cc/2yf45Dbt/IMG-3435.png", "caption": "Главная страница магазина"},
-        {"url": "https://i.postimg.cc/KvxPSmyZ/IMG-3453.png", "caption": "Карточки товаров"},
-        {"url": "https://i.postimg.cc/7Pg3Wfjr/IMG-3454.png", "caption": "Карточки товаров"},
-        {"url": "https://i.postimg.cc/jdczRBss/IMG-3456.png", "caption": "Карточки товаров"},
-        {"url": "https://i.postimg.cc/sfpYNvbd/IMG-3455.png", "caption": "Редактор карточки"},
-        {"url": "https://i.postimg.cc/FsNy5hQY/IMG-3457.png", "caption": "Редактор карточки"},
-        {"url": "https://i.postimg.cc/BQ4T9JGb/IMG-3458.png", "caption": "Аналитика продаж"}
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/3a/1ac345632d80901c0ee3cc2bdbd7803a.jpeg",
+          "caption": "Главная страница магазина"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/52/4cd0ab9c1eb96633dfe3cfa84bb88952.jpeg",
+          "caption": "Карточки товаров"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/e4/277592dfd226970b57dca8917d9377e4.jpeg",
+          "caption": "Карточки товаров"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/c7/1089e77c48591054c64fc3b5093652c7.jpeg",
+          "caption": "Карточки товаров"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/9d/7cbe1c8019a1963ddcbf6f5613da449d.jpeg",
+          "caption": "Редактор карточки"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/3c/5bada6d55de23d081b8599b79db67d3c.jpeg",
+          "caption": "Редактор карточки"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/f2/8c2b5df9b448054d8ecb0dbea6db20f2.jpeg",
+          "caption": "Аналитика продаж"
+        }
       ],
-      "video": "https://www.image2url.com/r2/default/videos/1785681304143-1dfc853d-18f2-40bd-9e0c-9b68e47e637f.mp4",
+      "video": "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/WztqulkbFJA1zw",
       "date": "2023-2026"
     },
     {
@@ -31,11 +52,24 @@
       "result": "Единая CMS на базе Google Sheets для управления всем каталогом магазина.",
       "url": "",
       "images": [
-        {"url": "https://i.postimg.cc/HkLbn3xz/IMG-3459.png", "caption": "Главная таблица"},
-        {"url": "https://i.postimg.cc/qMw8pWkh/IMG-3460.png", "caption": "WB таблица"},
-        {"url": "https://i.postimg.cc/Z5q6njnk/IMG-3462.png", "caption": "Каталог товаров"},
-        {"url": "https://i.postimg.cc/nc2vnNHr/IMG-3461.png", "caption": "Каталог товаров"},
-        {"url": "https://i.postimg.cc/fRbYy5Lg/IMG-3463.png", "caption": "Каталог товаров"}
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/34/b7f7fee9120c7b62b7bafba0aa747e34.jpeg",
+          "caption": "Главная таблица"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/33/6682855b093656deaaab9a148fc94233.jpeg",
+          "caption": "WB таблица"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/02/04f286acc103ccac64beb3de578e8802.jpeg",
+          "caption": "Каталог товаров"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/39/d07c02916fbf3e817bcc74c291322339.jpeg",
+          "caption": "Каталог товаров"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/02/956a7122592037b5a80cc5d39fa61602.jpeg", "caption": "Каталог товаров"}
       ],
       "date": "2025-2026"
     },
@@ -49,10 +83,20 @@
       "result": "Полная автоматизация синхронизации данных между Wildberries и сайтом.",
       "url": "",
       "images": [
-        {"url": "https://i.postimg.cc/y8N0xndQ/IMG-3464.png", "caption": "Структура скриптов"},
-        {"url": "https://i.postimg.cc/y8rcZ9gw/IMG-3467.png", "caption": "Код скрипта"},
-        {"url": "https://i.postimg.cc/qvZy3n6f/IMG-3465.png", "caption": "Логи выполнения"},
-        {"url": "https://i.postimg.cc/7ZQ027GF/IMG-3466.png", "caption": "Логи выполнения"}
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/7c/2c9f2d4d1b9c5808cef6ff4a7ab7b87c.jpeg",
+          "caption": "Структура скриптов"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/5f/ded17c30e30e7f8bd0f87dcd0128805f.jpeg",
+          "caption": "Код скрипта"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/66/52355f4a098cf1e9964d96d06d671766.jpeg",
+          "caption": "Логи выполнения"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0804/f7/b1e86ac7111f53102d41cfe96993c1f7.jpeg", "caption": "Логи выполнения"}
       ],
       "date": "2025-2026"
     },
@@ -66,9 +110,16 @@
       "result": "Показы: 60 987, Клики: 1 042, CTR: 1,7%, Конверсии: 18, Цена конверсии: 361,11 ₽",
       "url": "",
       "images": [
-        {"url": "https://i.postimg.cc/kGFW6pWP/IMG-3446.png", "caption": "Статистика кампании"},
-        {"url": "https://i.postimg.cc/wxhXG7ZR/IMG-3447.png", "caption": "Показатели рекламы"},
-        {"url": "https://i.postimg.cc/PJz1pR15/IMG-3448.png", "caption": "Аналитика"}
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/ed/06ca587a4b6a89f2775c7eca5fd249ed.jpeg",
+          "caption": "Статистика кампании"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/fe/c600b405673762aafe424c59304f68fe.jpeg",
+          "caption": "Показатели рекламы"
+        },
+        {
+          "url": "https://i128.fastpic.org/big/2026/0805/fe/569cc791e8a8e9089213ec7d78e74ffe.jpeg", "caption": "Аналитика"}
       ],
       "date": "2025"
     }
