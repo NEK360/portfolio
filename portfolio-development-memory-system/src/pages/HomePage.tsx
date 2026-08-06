@@ -74,27 +74,28 @@ export default function HomePage() {
 
   const heroRef = useRef<HTMLDivElement>(null);
 
- const handleformSubmit = async (e: React.FormEvent) => {
+ const handleFormSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
   try {
     await sendContactEmail(
-      form.name,
-      form.email,
-      form.message
+      contactForm.name,
+      contactForm.email,
+      contactForm.message
     );
 
-    setSent(true);
+    setFormSent(true);
 
-    setForm({
+    setContactForm({
       name: "",
       email: "",
       message: "",
     });
 
-    setTimeout(() => setSent(false), 3000);
+    setTimeout(() => setFormSent(false), 3000);
+
   } catch (err) {
-    console.error(err);
+    console.error("EmailJS error:", err);
     alert("Не удалось отправить сообщение.");
   }
 };
