@@ -1,3 +1,4 @@
+import { sendContactEmail } from "../lib/email";
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
@@ -73,13 +74,30 @@ export default function HomePage() {
 
   const heroRef = useRef<HTMLDivElement>(null);
 
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Form submission placeholder
-    setFormSent(true);
-    setTimeout(() => setFormSent(false), 3000);
-    setContactForm({ name: '', email: '', message: '' });
-  };
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    await sendContactEmail(
+      form.name,
+      form.email,
+      form.message
+    );
+
+    setSent(true);
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
+
+    setTimeout(() => setSent(false), 3000);
+  } catch (err) {
+    console.error(err);
+    alert("Не удалось отправить сообщение.");
+  }
+};
 
   return (
     <div>
