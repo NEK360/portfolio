@@ -4,18 +4,18 @@ import AnimatedCounter from '../components/ui/AnimatedCounter';
 
 export default function AutomationPage() {
   const appsScriptImages = [
-    { url: 'https://i.postimg.cc/y8N0xndQ/IMG-3464.png', caption: 'Структура скриптов Google Apps Script' },
-    { url: 'https://i.postimg.cc/y8rcZ9gw/IMG-3467.png', caption: 'Код скрипта' },
-    { url: 'https://i.postimg.cc/qvZy3n6f/IMG-3465.png', caption: 'Логи выполнения' },
-    { url: 'https://i.postimg.cc/7ZQ027GF/IMG-3466.png', caption: 'Логи выполнения' },
+    { url: 'https://i128.fastpic.org/big/2026/0804/7c/2c9f2d4d1b9c5808cef6ff4a7ab7b87c.jpeg', caption: 'Структура скриптов Google Apps Script' },
+    { url: 'https://i128.fastpic.org/big/2026/0804/5f/ded17c30e30e7f8bd0f87dcd0128805f.jpeg', caption: 'Код скрипта' },
+    { url: 'https://i128.fastpic.org/big/2026/0804/66/52355f4a098cf1e9964d96d06d671766.jpeg', caption: 'Логи выполнения' },
+    { url: 'https://i128.fastpic.org/big/2026/0804/f7/b1e86ac7111f53102d41cfe96993c1f7.jpeg', caption: 'Логи выполнения' },
   ];
 
   const sheetsImages = [
-    { url: 'https://i.postimg.cc/HkLbn3xz/IMG-3459.png', caption: 'Главная таблица' },
-    { url: 'https://i.postimg.cc/qMw8pWkh/IMG-3460.png', caption: 'WB таблица' },
-    { url: 'https://i.postimg.cc/Z5q6njnk/IMG-3462.png', caption: 'Каталог товаров' },
-    { url: 'https://i-postimg.cc/nc2vnNHr/IMG-3461.png', caption: 'Каталог товаров' },
-    { url: 'https://i.postimg.cc/fRbYy5Lg/IMG-3463.png', caption: 'Каталог товаров' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/34/b7f7fee9120c7b62b7bafba0aa747e34.jpeg', caption: 'Главная таблица' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/33/6682855b093656deaaab9a148fc94233.jpeg', caption: 'WB таблица' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/02/04f286acc103ccac64beb3de578e8802.jpeg', caption: 'Каталог товаров' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/39/d07c02916fbf3e817bcc74c291322339.jpeg', caption: 'Каталог товаров' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/02/956a7122592037b5a80cc5d39fa61602.jpeg', caption: 'Каталог товаров' },
   ];
 
   return (
@@ -267,7 +267,7 @@ export default function AutomationPage() {
             flexWrap: 'wrap',
           }}>
             <img
-              src="https://i.postimg.cc/mg6CHM1s/IMG-3470.png"
+              src="https://i128.fastpic.org/big/2026/0804/1e/4f51878851511e1ab2851b1295bc601e.jpeg"
               alt="Telegram File Bot"
               style={{ width: '280px', borderRadius: '10px', border: '1px solid var(--border)', flexShrink: 0 }}
             />
