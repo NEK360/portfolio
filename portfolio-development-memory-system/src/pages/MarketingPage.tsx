@@ -4,9 +4,9 @@ import { FileText } from 'lucide-react';
 
 export default function MarketingPage() {
   const yandexImages = [
-    { url: 'https://i.postimg.cc/kGFW6pWP/IMG-3446.png', caption: 'Статистика рекламной кампании' },
-    { url: 'https://i.postimg.cc/wxhXG7ZR/IMG-3447.png', caption: 'Показатели рекламы' },
-    { url: 'https://i.postimg.cc/PJz1pR15/IMG-3448.png', caption: 'Аналитика кампании' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/ed/06ca587a4b6a89f2775c7eca5fd249ed.jpeg', caption: 'Статистика рекламной кампании' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/fe/c600b405673762aafe424c59304f68fe.jpeg', caption: 'Показатели рекламы' },
+    { url: 'https://i128.fastpic.org/big/2026/0805/fe/569cc791e8a8e9089213ec7d78e74ffe.jpeg', caption: 'Аналитика кампании' },
   ];
 
   return (
@@ -193,7 +193,7 @@ export default function MarketingPage() {
                 <span style={{ fontSize: '14px', color: 'var(--text-secondary)' }}>Цена продукта</span>
                 <span style={{ fontSize: '18px', fontWeight: 800, color: 'var(--accent)' }}>1 540 ₽</span>
               </div>
-              <a href="https://www.image2url.com/r2/default/documents/1785680984978-511ef0ee-0150-4a96-881f-79c33567a758.pdf"
+              <a href="https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/CkSl1ZlDhr2_kw"
                 target="_blank" rel="noopener noreferrer"
                 style={{
                   display: 'inline-flex', alignItems: 'center', gap: '8px',
@@ -258,7 +258,7 @@ export default function MarketingPage() {
                 ))}
               </div>
 
-              <a href="https://www.image2url.com/r2/default/documents/1785680508817-3bdf8232-9064-45a0-b4cc-78beb6a8052b.pdf"
+              <a href="https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/us70xvk4_posrg"
                 target="_blank" rel="noopener noreferrer"
                 style={{
                   display: 'inline-flex', alignItems: 'center', gap: '8px',
