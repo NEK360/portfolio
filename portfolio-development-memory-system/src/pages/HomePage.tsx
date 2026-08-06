@@ -74,7 +74,7 @@ export default function HomePage() {
 
   const heroRef = useRef<HTMLDivElement>(null);
 
- const handleFormSubmit = async (e: React.FormEvent) => {
+ const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
   try {
@@ -726,7 +726,7 @@ export default function HomePage() {
                   <p style={{ color: '#22c55e', fontWeight: 600 }}>Сообщение отправлено!</p>
                 </motion.div>
               ) : (
-                <form onSubmit={handleformSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                   {[
                     { name: 'name', label: 'Имя', type: 'text', placeholder: 'Ваше имя' },
                     { name: 'email', label: 'Email', type: 'email', placeholder: 'your@email.com' },
