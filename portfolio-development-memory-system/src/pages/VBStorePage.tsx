@@ -380,7 +380,7 @@ export default function VBStorePage() {
           </h2>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
             {[
-              { label: 'Сайт Tilda 2024', url: 'https://www.image2url.com/r2/default/documents/1785680642140-20961c59-7abd-4528-8ddc-953e8de6d049.pdf', desc: 'Первая версия интернет-магазина на Tilda' },
+              { label: 'Сайт Tilda 2024', url: 'https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/i/nT3XoVN3NI3NEw', desc: 'Первая версия интернет-магазина на Tilda' },
             ].map((doc, i) => (
               <a key={i} href={doc.url} target="_blank" rel="noopener noreferrer"
                 style={{
